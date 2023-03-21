@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>food-website</title>
+    <link
+      rel="shortcut icon"
+      href="./images/title-logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- ----linked font awesome cdn---- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ----linked style.css file---- -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+
+    <!-- ----linked media.css file---- -->
+    <link rel="stylesheet" href="./public/css/media.css" />
+  </head>
+  <body>
+   
+    <header class="header">
+     
+      <div class="header-logo">
+        <img src="./images/logo-img.png" alt="logo" />
+      </div>
+
+    
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#menu">menu</a>
+          </li>
+          <li>
+            <a href="#popular">popular</a>
+          </li>
+         
+          <li>
+            <a href="#order">order</a>
+          </li>
+        </ul>
+      </nav>
+
+     
+      <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+   
+
+    <main>
+      
+      <section id="home" class="home">
+        <div class="home-desc">
+          <h1>Where every bite is a taste of perfection!"</h1>
+          
+          <input type="button" value="get started" />
+        </div>
+
+        <div class="home-image">
+          <img src="./images/home-img.png" alt="Net Error" />
+        </div>
+      </section>
+
+      
+      <section id="about" class="about">
+        <div class="about-image">
+          <img src="./images/about-frame-img.png" alt="" />
+        </div>
+
+        <div class="about-desc">
+          <h2>a world about us</h2>
+          <p>
+            Welcome to our restaurant, where culinary art meets passion! We are a place where food is not just a meal but an experience. 
+          </p>
+          <p>
+            From the moment you walk through our doors, you'll be greeted with a warm smile and an inviting atmosphere. Our chefs use only the finest, freshest ingredients to create dishes that are both visually stunning and a delight to the palate. Whether you're looking for a romantic dinner for two, a family gathering or a night out with friends, our restaurant offers something for everyone. Come and join us for an unforgettable dining experience that will leave you craving for more!
+          </p>
+
+          <input type="button" value="learn more" />
+        </div>
+      </section>
+
+     
+      <section id="menu" class="menu">
+        <h2>our delicious <span>menu</span></h2>
+        <div class="catagory">
+          <input type="button" value="breakfast" />
+          <input type="button" class="active" value="lunch" />
+          <input type="button" value="dinner" />
+          <input type="button" value="desert" />
+        </div>
+
+        <div class="catagory-img">
+          <img id="c-img" src="./images/menu-lunch.jpg" alt="Net Error" />
+        </div>
+
+      
+        <div class="menu-content">
+          <div class="info">
+            <h3><span>01.</span>we serve prepare he most delicious food in the city</h3>
+           
+          </div>
+
+          
+          <div class="info">
+            <h3><span>02.</span>we provide the best services</h3>
+          
+          </div>
+
+         
+          <div class="info">
+            <h3><span>03.</span>we have are open 24/7</h3>
+           
+          </div>
+
+         
+          <div class="info">
+            <h3><span>04.</span>we serve best desert</h3>
+            
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="popular" class="popular">
+        <h2>most <span>popular</span> foods</h2>
+
+        <div class="popular-content">
+        
+          <div class="p-card">
+            <img src="./images/product-1.jpg" alt="Net Error" />
+            <h4>chicken</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             
+            </div>
+            <p class="price">500da</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+       
+          <div class="p-card">
+            <img src="./images/product-2.jpg" alt="Net Error" />
+            <h4>frech juice</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             
+            </div>
+            <p class="price">500da</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          
+          <div class="p-card">
+            <img src="./images/product-3.jpg" alt="Net Error" />
+            <h4>chawarma</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             
+            </div>
+            <p class="price">500da</p>
+            <input type="button" value="add to cart" />
+          </div>
+
+          
+          <div class="p-card">
+            <img src="./images/product-4.jpg" alt="Net Error" />
+            <h4>spagettie</h4>
+            <div class="review">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+             
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="price">500da</p>
+            <input type="button" value="add to cart" />
+          </div>
+        </div>
+      </section>
+
+      
+
+
+
+      <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+      
+          
+          <div class="carousel-inner" role="listbox">
+      
+            <div class="item active">
+              <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F7ed63c9c6146cde6ea5a4d801cd702d79792670d" alt="dessert" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>flan</h3>
+               
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="https://media.istockphoto.com/id/1296474411/photo/piece-of-sachertorte-sachr-cake-on-white-plate-top-view-copy-space.jpg?b=1&s=170667a&w=0&k=20&c=4FL6ZEbWY-eqJDY8-pa5aeXKCuae6vT1D6_d1E5xMFI=" alt="Dessert" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Dessert</h3>
+                
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIL2OwcR3akS_ATJiJTqQLnW_5aGcUHoIKTw&usqp=CAU" alt="juice" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>Fresh juice</h3>
+               
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGVzc2VydHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="juice" width="460" height="345">
+              <div class="carousel-caption">
+                <h3>crepes</h3>
+               
+              </div>
+            </div>
+           
+        
+          </div>
+      
+         
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+
+
+
+
+
+     
+      <section id="order" class="order">
+        <h2>make an <span>order</span></h2>
+
+        <div class="order-content">
+          <form action="#" class="order-form" autocomplete="off">
+            <input type="text" placeholder="name" required />
+            <input type="email" placeholder="email" required />
+            <input type="password" placeholder="password" required />
+            <input type="number" placeholder="phone Number" required />
+            <textarea cols="30" rows="8" placeholder="address"></textarea>
+
+            <button type="submit">Order now</button>
+          </form>
+          <img src="./images/form-img.jpg" alt="Net Error" />
+        </div>
+      </section>
+    </main>
+
+    
+    <footer class="footer">
+      <div class="contact-info">
+        <h4>contact info</h4>
+        <p>
+          <i class="fas fa-location-dot"></i
+          ><span>alger</span>
+        </p>
+        <p><i class="fas fa-envelope"></i> <span>food@gmail.com</span></p>
+        <p><i class="fas fa-phone"></i> <span>09843543534</span></p>
+        <p><i class="fas fa-phone"></i> <span>06654676</span></p>
+      </div>
+
+      <div class="location">
+        <h4>branch location</h4>
+        <ul>
+          <li><a href="#">place 1</a></li>
+          <li><a href="#">place 2</a></li>
+          <li><a href="#">place 3</a></li>
+          <li><a href="#">place 4</a></li>
+        </ul>
+      </div>
+
+      <div class="quick-links">
+        <h4>quick links</h4>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#menu">menu</a></li>
+          <li><a href="#popular">popular</a></li>
+          
+          <li><a href="#order">order</a></li>
+        </ul>
+      </div>
+
+      <div class="follow-us">
+        <h4>follow us</h4>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="blank">facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="blank">instagram</a>
+          </li>
+          <li><a href="https://www.twitter.com" target="blank">twitter</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="blank">linkedin</a>
+          </li>
+        </ul>
+      </div>
+
+      
+
+    
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
+
